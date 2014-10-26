@@ -1,0 +1,7 @@
+-PANTALLA DE INICIO: un splash con el logo del banco
+
+-MENÚ LATERAL: las opciones son: Añadir, ver cesta, Desarrollador
+
+AÑADIR: Un botón para cada tipo de producto. Un toque, un producto añadido. Al añadir sale un toast que te informa,
+CESTA:
+DESARROLLADOR: muestra información del menda (correo, github, versión)
