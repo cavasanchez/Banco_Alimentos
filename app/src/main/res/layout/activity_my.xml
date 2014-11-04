@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondoguay"
+    tools:context=".MyActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arroz"
+        android:id="@+id/buttonArroz"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Legumbres"
+        android:id="@+id/buttonLegumbres"
+        android:layout_alignBottom="@+id/buttonArroz"
+        android:layout_toRightOf="@+id/buttonArroz"
+        android:layout_toEndOf="@+id/buttonArroz"
+        android:layout_marginLeft="76dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pasta"
+        android:id="@+id/buttonPasta"
+        android:layout_below="@+id/buttonArroz"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="152dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Galletas"
+        android:id="@+id/buttonGalletas"
+        android:layout_alignBottom="@+id/buttonPasta"
+        android:layout_alignRight="@+id/buttonLegumbres"
+        android:layout_alignEnd="@+id/buttonLegumbres" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Desarrollado por Carlos Vázquez Sánchez. Contacto: cavasanchez@gmail.com"
+        android:id="@+id/textView"
+        android:layout_toStartOf="@+id/buttonGalletas"
+        android:textColor="#FFF000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
